@@ -87,14 +87,16 @@
 }
 
 .products{
-    margin: 20px 25px;
+    margin: 50px 25px;
     display: flex;
+    color: white;
 }
 
 .products-heading{
     text-align: center;
     margin: 25px 0;
     font-weight: 400;
+    color: white;
 }
 .products img{
     width: 150px;
