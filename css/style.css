@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(41, 41, 114);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 20px;
+}
+
+
+
+.logo  {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(41, 41, 114);
+    margin-left: 20px;
+   
+}
+
+.signup{
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;            
+    gap: 50px;             
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar ul li:hover {
+    color: black;           
+}
+
+.banner {
+  display: flex;                
+  align-items: center;          
+  justify-content: space-between;
+  margin: 100px 80px;
+  gap: 40px;                 
+  color: white;                 
+}
+
+.banner-text {
+  flex: 1;                   
+  max-width: 50%;
+}
+
+.banner-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.banner-text p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.banner-img {
+  width: 50%;                    /* الصورة تأخذ نصف العرض */
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.products{
+    margin: 20px 25px;
+    display: flex;
+}
+
+.products-heading{
+    text-align: center;
+    margin: 25px 0;
+    font-weight: 400;
+}
+.products img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin-left: 8px;
+}
+
+.products h1{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 10px 8px;
+}
+
+.products p{
+    font-size: 10px;
+    font-weight: 200;
+    padding: 10px;
+}
