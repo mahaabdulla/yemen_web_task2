@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: "Roboto", sans-serif;
     background-color: rgb(41, 41, 114);
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     margin: 30px 30px;
-    
+
 }
 
-.navbar a{
+.navbar a {
     text-decoration: none;
     color: white;
     transition: color 0.3s;
@@ -22,16 +22,16 @@
 
 
 
-.logo  {
+.logo {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: rgb(41, 41, 114);
     margin-left: 20px;
-   
+
 }
 
-.signup{
+.signup {
     padding: 10px 20px;
     background-color: white;
     color: black;
@@ -42,7 +42,7 @@
     transition: background-color 0.3s, color 0.3s;
 }
 
-.home{
+.home {
     display: flex;
     height: 600px;
     justify-content: center;
@@ -51,8 +51,8 @@
 
 .navbar ul {
     list-style-type: none;
-    display: flex;            
-    gap: 50px;             
+    display: flex;
+    gap: 50px;
     margin: 0;
     padding: 0;
 }
@@ -65,118 +65,252 @@
 }
 
 .navbar ul li:hover {
-    color: black;           
+    color: black;
 }
 
 .banner {
-  display: flex;                
-  align-items: center;          
-  justify-content: space-between;
-  margin: 150px 80px;
-  gap: 40px;                 
-  color: white;                 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 150px 80px;
+    gap: 40px;
+    color: white;
 }
 
 .banner-text {
-  flex: 1;                   
-  max-width: 50%;
-  
+    flex: 1;
+    max-width: 50%;
+
 }
 
 .banner-text h2 {
-  font-size: 36px;
-  margin-bottom: 20px;
-  color: rgb(16, 16, 85);
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: rgb(16, 16, 85);
 }
 
 .banner-text p {
-  font-size: 18px;
-  line-height: 1.6;
-  font-weight: 300;
-  letter-spacing: 2px;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
 
 .banner-img {
-  width: 50%;                   
-  height: 300px;
-  border-radius: 20px;
-  object-fit: cover;
+    width: 50%;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
 }
 
-.products{
+.products {
     margin: 50px 25px;
     display: flex;
     color: white;
 }
 
-.products-heading{
+.products-heading {
     text-align: center;
     margin-bottom: 20px;
     font-weight: bold;
     color: rgb(16, 16, 85);
 }
-.products img{
+
+.products img {
     width: 150px;
     height: 150px;
     border-radius: 10px;
     margin-left: 8px;
 }
 
-.products h1{
+.products h1 {
     font-size: 16px;
     font-weight: bold;
     margin: 10px 8px;
 }
 
-.products p{
+.products p {
     font-size: 10px;
     font-weight: 200;
     padding: 10px;
     padding-right: 40px;
 }
 
-.services{
+.services {
     margin: 100px 80px;
     color: white;
     font-size: 18px;
     text-align: center;
 }
 
-.services h2{
+.services h2 {
     font-size: 28px;
     margin-bottom: 20px;
     color: rgb(16, 16, 85);
 }
 
 
-.thumbs{
+.thumbs {
     display: flex;
     justify-content: space-around;
     gap: 20px;
     margin: 120px 50px;
 }
 
-.thumbs img{
+.thumbs img {
     width: 250px;
     height: 150px;
     border-radius: 15px;
     object-fit: cover;
-   
+
 }
 
 .footer {
-    background-color: rgb(30, 30, 90); 
+    background-color: rgb(30, 30, 90);
     margin-top: 60px;
-    color: white;                  
-    text-align: center;             
-    padding: 40px 0;         
-    font-size: 14px;                 
-    border-top: 1px solid rgba(255, 255, 255, 0.2); 
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .footer p {
-     background-color: rgb(30, 30, 90);            
+    background-color: rgb(30, 30, 90);
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 60px;
+    background-color: rgb(41, 41, 114);
+    padding: 20px;
+}
+
+.login-image img {
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgb(41, 41, 114);
+}
+
+.login-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: rgb(16, 16, 85);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-page label {
+    font-size: 20px;
+    color: rgb(0, 102, 204);
+    background-color: rgb(16, 16, 85);
+}
+
+.login-page h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-btn {
+    background-color: rgb(0, 102, 204) !important;
+    margin: 10px, 0;
+    width: 600px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+.login-btn:hover {
+    background-color: rgb(30, 144, 255);
+}
+
+.login-page p a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: rgb(16, 16, 85);
+  transition: color 0.3s ease;
+}
+
+.login-page p a:hover {
+  color: rgb(139, 160, 180);
+  text-decoration: underline;
+}
+
+.login-page input {
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 10px;
+    width: 250px;
+}
+
+.login-page p {
+    background-color: rgb(16, 16, 85);
+    color: rgb(0, 102, 204);
 }
 
 
+/*  sing up styles */
+.login-page h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+}
 
+.login-page form {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: rgb(16, 16, 85);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-page input {
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+.login-btn {
+  background-color: rgb(0, 102, 204) !important;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: rgb(30, 144, 255);
+}
